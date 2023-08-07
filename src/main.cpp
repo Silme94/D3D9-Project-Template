@@ -67,7 +67,6 @@ int WINAPI WinMain(HINSTANCE instance, HINSTANCE prevInstance, LPSTR cmdLne, int
 		CW_USEDEFAULT, CW_USEDEFAULT, wndWidth, wndHeight,
 		NULL, NULL, wc.hInstance, NULL);
 
-	// Initialiser Direct3D
 	if (!InitD3D(g_hWnd))
 		return 1;
 
